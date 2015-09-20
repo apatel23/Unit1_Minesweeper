@@ -1,0 +1,10 @@
+
+# Cell class
+# 2-D array of board cells
+# Bomb cells have adjacency list 
+# Number determines cell status: -1 bomb, 0 empty, 1-8 mines nearby
+# Boolean for visible/not visible, Boolean for blacked out cell
+# Upon start, first cell needs to be empty cell or number not -1 (cant be mine), reveal cell after clicked
+# Board generation randomly places bombs (no bombs next to each other), once placed board will be hidden
+# getX, getY: check if cell is bomb, if not bomb: check remaining cells, check hidden cells
+# Draw board everytime a cell is clicked, Draw cell when state of cell has changed 
